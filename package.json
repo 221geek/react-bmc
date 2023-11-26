@@ -1,17 +1,36 @@
 {
-  "name": "react-bmc",
-  "version": "1.0.0",
-  "description": "React component for integrating an interactive Business Model Canvas, enabling easy creation, editing, and visualization of business models directly in React applications",
-  "main": "index.js",
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "dev": "nodemon app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "name": "business-model-canvas",
+  "author": "Abdoul Aziz Dione",
+  "main": "dist/index.js",
+  "module": "dist/esm/business-model-canvas.js",
+  "version": "0.1.0",
+  "description": "",
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/221geek/react-bmc.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/221geek/react-bmc/issues"
+  },
+  "homepage": "https://github.com/221geek/react-bmc#readme",
+  "scripts": {
+    "start": "react-pkg-scripts watch",
+    "build": "react-pkg-scripts build",
+    "test": "react-pkg-scripts test",
+    "preview": "react-pkg-scripts preview"
+  },
+  "peerDependencies": {
+    "react": ">=17",
+    "react-dom": ">=17"
+  },
+  "peerDependenciesMeta": {
+    "react-dom": {
+      "optional": true
+    }
   },
   "keywords": [
     "react",
@@ -20,10 +39,27 @@
     "canvas",
     "react-bmc"
   ],
-  "author": "Abdoul Aziz Dione",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/221geek/react-bmc/issues"
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
-  "homepage": "https://github.com/221geek/react-bmc#readme"
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-pkg-scripts": "^1.0.9"
+  }
 }
