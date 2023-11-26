@@ -1,0 +1,23 @@
+{
+  "name": "react-bmc",
+  "version": "1.0.0",
+  "description": "React component for integrating an interactive Business Model Canvas, enabling easy creation, editing, and visualization of business models directly in React applications",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/221geek/react-bmc.git"
+  },
+  "keywords": [
+    "business-model-canvas",
+    "react-bmc"
+  ],
+  "author": "Abdoul Aziz Dione",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/221geek/react-bmc/issues"
+  },
+  "homepage": "https://github.com/221geek/react-bmc#readme"
+}
